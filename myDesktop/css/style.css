@@ -1,0 +1,18 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+header {
+    background-color: rgb(15, 108, 170);
+    border-radius: 15px;
+}
+body {
+    max-width: 800px;
+    margin: auto;
+}
+#welcome {
+    text-align: center;
+}

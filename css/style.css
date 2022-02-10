@@ -1,0 +1,44 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+    color: white
+}
+header {
+    background-color: rgb(15, 108, 170);
+    border-radius: 15px;
+    max-width: 700px;
+    margin: auto;
+}
+fieldset {
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    max-width: 200px;
+    margin: auto;
+}
+legend {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input {
+    border-radius: 15px;
+    border-color: white;
+    border-style: none;
+    line-height: 30px;
+}
+
+fieldset:hover {
+    transition: 0.8s;
+    border-color: black;
+}
+
+fieldset:hover legend {
+    transition: 0.8s;
+    color: black;
+}
+.btn {
+    max-width: 51.5px;
+    margin: auto;
+}
