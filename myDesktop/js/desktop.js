@@ -15,7 +15,7 @@ function doStuff(e) {
     for (let userIndex in userAccess){
         if (userName == element[userIndex]['user']){
             const showName = document.getElementById('user-name');
-            showName.innerText = element[userIndex]['name'];
+            showName.innerText = `${element[userIndex]["name"]} ${element[userIndex]["lastname"]}`;
         }
     }
 }
