@@ -2,7 +2,8 @@
 
 import utl from "./shorters.js";
 
-const url = 'https://run.mocky.io/v3/1b90c491-348b-4bf1-9a2e-10b4a8ae6d32';
+//const url = 'https://run.mocky.io/v3/1b90c491-348b-4bf1-9a2e-10b4a8ae6d32';
+const url = 'https://run.mocky.io/v3/1193e99b-6cf3-494b-ab52-1385d5c1a15a'
 
 function doStuff (e) {
     // print list
@@ -27,3 +28,76 @@ function doStuff (e) {
 }
 
 fetch(url).then(utl.convertToJson).then(doStuff)
+
+/*
+
+{
+    "users":
+      [
+        {
+          "user":"jed98",
+          "pw":"admin",
+          "name":"Jared",
+          "lastname":"Larios",
+          "photo": "https://jaredlarios.github.io/cse121b/images/photo3.png",
+          "courses": [
+              {
+              "course": "WDD 320",
+              "grade": "+A"
+              },
+              {
+              "course": "CSE 121B",
+              "grade": "+B"
+              },
+              {
+              "course": "CSE 230",
+              "grade": "-A"
+              }
+            ]
+        },
+        {
+          "user":"sam11",
+          "pw":"admin",
+          "name":"Samuel",
+          "lastname":"Moreira",
+          "photo": "https://jaredlarios.github.io/cse121b/images/photo2.png",
+          "courses": [
+              {
+              "course": "WDD 320",
+              "grade": "+A"
+              },
+              {
+              "course": "CSE 121B",
+              "grade": "+B"
+              },
+              {
+              "course": "CSE 230",
+              "grade": "-A"
+              }
+            ]
+        },
+        {
+          "user":"admin",
+          "pw":"admin",
+          "name":"Jose",
+          "lastname":"Fernandez",
+          "photo": "https://jaredlarios.github.io/cse121b/images/photo1.png",
+          "courses": [
+              {
+              "course": "WDD 320",
+              "grade": "+A"
+              },
+              {
+              "course": "CSE 121B",
+              "grade": "+B"
+              },
+              {
+              "course": "CSE 230",
+              "grade": "-A"
+              }
+            ]
+        }
+      ]
+  }
+
+*/
