@@ -26,7 +26,7 @@ function doStuff(e) {
 function showInfo (e) {
     const photo = document.getElementById('photo')
 
-    photo.src = e.photo
+    photo.setAttribute('src', e.photo);
 }
 
 fetch(url).then(utl.convertToJson).then(doStuff)
