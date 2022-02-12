@@ -34,7 +34,7 @@ h2 {
     grid-row: 2/3;
     width: 100%;
     height: 100%;
-    border-radius: 25%;;
+    border-radius: 25%;
 }
 #tasks {
     grid-column: 2/4;
@@ -115,4 +115,17 @@ li button {
 section {
     background-color: rgba(128, 128, 128, 0.11);
     border-radius: 15px;
+}
+
+@media (max-width: 600px) {
+    main {
+        display: block;
+    }
+    #photo {
+        object-fit: cover;
+        height: 200px;
+    }
+    #personal-card {
+        height: 200px;
+    }
 }
