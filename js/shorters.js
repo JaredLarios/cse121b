@@ -19,7 +19,6 @@ const utl = {
             console.log('Requested ',input);
             if (us == input && pass == uObj[index]['pw']){
                 console.log('Acces Allowed');
-                document.getElementById('users').innerHTML = `<li>welcome ${us}</li>`;
                 passValues(us, index, pass);
             }
         }

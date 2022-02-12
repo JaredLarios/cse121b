@@ -8,8 +8,6 @@ const url = 'https://run.mocky.io/v3/1193e99b-6cf3-494b-ab52-1385d5c1a15a'
 function doStuff (e) {
     // print list
     let users = e.users;
-    const ulUsers = document.getElementById('users');
-    users.map( data => ulUsers.innerHTML += utl.showStuff(data.user) );
 
     // users 
     const btn = document.querySelector('button')
