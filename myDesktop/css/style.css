@@ -41,7 +41,7 @@ h2 {
     grid-row: 2/4;
     text-align: center;
 }
-#tasks div {
+#tasks .t-div {
     background-color: #0f6caa;
     color: white;
     padding-top: 1px;
@@ -92,12 +92,12 @@ li button {
     line-height: 35px;
 }
 
-div h3 {
+.title h3 {
     text-align: center;
     color: white;
 }
 
-div {
+.title {
     background-color: #0f6caa;
     padding-top: 1px;
     border-radius: 15px 15px 0 0;

@@ -3,7 +3,7 @@ const inforCard = {
         const section = document.getElementById('info')
 
         section.innerHTML = `   
-                                <div>
+                                <div class="title">
                                     <h3>Personal Info</h3>
                                 </div>
                                 <p class="info-detail">Name: <span>${e.lastname}, ${e.name}</span></p>
@@ -14,7 +14,7 @@ const inforCard = {
         const sectionCourse = document.querySelector('.courses1')
 
         sectionCourse.innerHTML = `   
-                                <div>
+                                <div class="title">
                                     <h3>My Courses</h3>
                                 </div>                        
                                 `
