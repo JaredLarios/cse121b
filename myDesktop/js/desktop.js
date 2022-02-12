@@ -2,6 +2,7 @@
 
 import utl from "../../js/shorters.js";
 import notebook from "./notebook.js";
+import inforCard from "./info-card.js";
 
 //const url = 'https://run.mocky.io/v3/1b90c491-348b-4bf1-9a2e-10b4a8ae6d32';
 const url = 'https://run.mocky.io/v3/1193e99b-6cf3-494b-ab52-1385d5c1a15a'
@@ -23,6 +24,8 @@ function doStuff(e) {
             showInfo(userInfo);
 
             enter.addEventListener('click',notebook.addTask)
+            inforCard.getInfo(userInfo);
+            inforCard.getCourses(userInfo);
         }
     }
 }
