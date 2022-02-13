@@ -28,6 +28,10 @@ const utl = {
             location.replace("myDesktop/desktop.html");
         };
     },
+    exit: () => {
+        sessionStorage.removeItem('userName');
+        location.replace("../index.html");
+    }
 }
 
 export default utl;

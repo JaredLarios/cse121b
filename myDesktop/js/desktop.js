@@ -21,13 +21,17 @@ function doStuff(e) {
         if (userName == element[userIndex]['user']){
             const userInfo = element[userIndex]
             const showName = document.getElementById('user-name');
+            const logOff = document.getElementById('log-off');
+
             showName.innerText = `${userInfo.name} ${userInfo.lastname}`;
             showInfo(userInfo);
 
-            enter.addEventListener('click',notebook.addTask)
+            enter.addEventListener('click',notebook.addTask);
             inforCard.getInfo(userInfo);
             inforCard.getCourses(userInfo);
             contacts.clasmates(element, userInfo);
+
+            logOff.addEventListener('click',utl.exit);
         }
     }
 }
