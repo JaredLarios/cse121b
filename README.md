@@ -6,4 +6,4 @@ Step three: Press log in
 
 Step four: Enjoy
 
-Note: If you want to exit you have to pres log off button located on the top right corner. 
+Note: If you want to exit you have to press the log-off button located in the top right corner. 
