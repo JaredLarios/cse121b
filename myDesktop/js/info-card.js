@@ -7,11 +7,11 @@ const inforCard = {
                                     <h3>Personal Info</h3>
                                 </div>
                                 <p class="info-detail">Name: <span>${e.lastname}, ${e.name}</span></p>
-                                <p class="info-detail">e-mail: <span>${e.user}@mytasks.edu</span></p>                         
+                                <p class="info-detail">e-mail: <span>${e.user}@mynotebook.edu</span></p>                         
                                 `
     },
     getCourses: (e) => {
-        const sectionCourse = document.querySelector('.courses1')
+        const sectionCourse = document.querySelector('.courses')
 
         sectionCourse.innerHTML = `   
                                 <div class="title">
